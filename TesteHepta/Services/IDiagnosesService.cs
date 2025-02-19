@@ -1,7 +1,9 @@
-﻿namespace TesteHepta.Services
+﻿using TesteHepta.Models;
+
+namespace TesteHepta.Services
 {
     public interface IDiagnosesService
     {
-        public int RunDiagnoses(string[] arrayBinaries);
+        public BaseModel<int> RunDiagnoses(string[] arrayBinaries);
     }
 }
