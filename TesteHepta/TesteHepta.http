@@ -1,0 +1,6 @@
+@TesteHepta_HostAddress = http://localhost:5050
+
+GET {{TesteHepta_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
